@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+html, body{
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    color:black;
+
+}
+
+.title{
+
+    position: absolute;
+    top:10%;
+    left:20%;
+    font-size: 3vw;
+    font-family: 'Noticia Text', serif;
+    font-style: bold;
+    color: white;
+    text-shadow: 5px 5px black;
+    background:rgba(20, 71, 15, 0.4);
+
+}
+img{
+
+    width:100%;
+    height:auto;
+}
+h1{
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+
+
+}
+h2{
+
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+    font-family: 'Lato', sans-serif;
+
+
+    font-size: 2vw;
+
+
+}
+h3{
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+
+
+    font-style: italic;
+    font-size: 1vw;
+    margin: auto 20%;
+    text-align: center;
+
+
+}
+hr{
+
+    width:60%;
+    margin-top: 2%;
+
+}
